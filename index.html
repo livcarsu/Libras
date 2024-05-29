@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Libras</title>
+ 
+</head>
+<body>
+    <header>
+        <h1>Libras</h1>
+    </header>
+
+ <main>
+        <figure>
+            <img src="https://blog-obahortifruti.redeoba.com.br/wp-content/uploads/2021/03/Flores_Mobile_800x475px.jpg" alt="Imagem 1">
+            <figcaption>Flores lindas, bem coloridas</figcaption>
+        </figure>
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSayqPuahnninSRipHtiSvQg5ybv8zwsyQQ&usqp=CAU" alt="Imagem 2">
+            <figcaption> Lindo jardim para apreciar</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.cec.com.br/files/blog/posts/2021/09_setembro/20210924/plantas-primavera-700x409_1.png" alt="Imagem 3">
+            <figcaption>Vasos de plantas para decoras sua casa</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Lívia Suana</p>
+        <!-- Código do VLibras -->
+<!-- Início do código relacionado ao plugin VLibras -->
+<div vw class="enabled">
+    <!-- Esta div possui o atributo customizado 'vw' e a classe 'enabled', que  são usados pelo plugin VLibras para identificar e estilizar o contêiner principal do widget. -->
+   
+    <div vw-access-button class="active"></div>
+    <!-- Esta div representa o botão de acesso ao VLibras. Tem um atributo customizado 'vw-access-button' e a classe 'active', indicando que o botão está ativo e visível. -->
+   
+    <div vw-plugin-wrapper>
+        <!-- Esta div atua como um contêiner para o plugin VLibras. O atributo 'vw-plugin-wrapper' provavelmente é utilizado para o plugin identificar onde deve ser inserido seu conteúdo. -->
+       
+        <div class="vw-plugin-top-wrapper"></div>
+        <!-- Esta div interna pode ser utilizada para posicionar elementos ou funcionalidades adicionais do plugin VLibras na parte superior do widget. -->
+    </div>
+</div>
+ 
+<!-- Inclusão do script do plugin VLibras -->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<!-- Este script carrega o arquivo JavaScript do plugin VLibras diretamente do servidor do VLibras. -->
+ 
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    <!-- Este script inicializa o widget VLibras. A função 'VLibras.Widget' é chamada com a URL base do app VLibras, configurando o widget no site. -->
+</script>
+
+    </footer>
+
+    
+</body>
+</html>
